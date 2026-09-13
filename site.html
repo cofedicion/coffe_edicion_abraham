@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-primary": "#d7c2bb", "surface-variant": "#e5e2de", "error": "#ba1a1a", "on-secondary-fixed-variant": "#663d15", "on-surface": "#1c1c1a", "on-error-container": "#93000a", "surface-bright": "#fcf9f5", "surface-container-high": "#eae8e4", "surface-container-low": "#f6f3ef", "error-container": "#ffdad6", "on-tertiary-container": "#6e8a79", "on-background": "#1c1c1a", "on-error": "#ffffff", "primary-fixed": "#f4ded7", "inverse-surface": "#31302e", "tertiary": "#000000", "primary": "#000000", "on-tertiary-fixed-variant": "#324c3e", "primary-container": "#241915", "background": "#fcf9f5", "secondary-fixed": "#ffdcc2", "secondary": "#82542a", "inverse-on-surface": "#f3f0ec", "outline-variant": "#d2c3bf", "surface-dim": "#dcdad6", "tertiary-fixed-dim": "#b0cdbb", "tertiary-container": "#062014", "primary-fixed-dim": "#d7c2bb", "surface": "#fcf9f5", "surface-container-lowest": "#ffffff", "surface-tint": "#6b5b55", "tertiary-fixed": "#ccead6", "on-secondary": "#ffffff", "on-primary-fixed": "#241915", "secondary-container": "#fdc08c", "surface-container": "#f0ede9", "on-primary-fixed-variant": "#52443f", "on-tertiary": "#ffffff", "on-surface-variant": "#4e4541", "outline": "#807571", "on-tertiary-fixed": "#062014", "secondary-fixed-dim": "#f7ba87", "on-primary": "#ffffff", "on-primary-container": "#92807a", "surface-container-highest": "#e5e2de", "on-secondary-container": "#784c23", "on-secondary-fixed": "#2e1500" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin": "3rem", "space-2xl": "4rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "gutter": "1.5rem", "space-md": "1rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem" }, "fontFamily": { "label-md": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "headline-sm": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "label-sm": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ] }, "fontSize": { "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "title-md": [ "16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700" } ], "display-lg-mobile": [ "38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "500" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(36,25,21,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><button aria-label="Abrir menú móvil" class="lg:hidden p-space-xs rounded-lg text-on-surface hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">menu</span></button><a class="flex items-center gap-space-sm group text-left" data-path="inicio" href="#"><div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-secondary shadow-[0_2px_8px_rgba(130,84,42,0.12)] group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[20px]">coffee_maker</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface leading-none">Filter Coffee</span><span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mt-0.5">Café de Pasar Artesanal</span></div></a></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-surface-container text-on-surface font-title-md"><a aria-current="page" class="px-space-sm py-space-xs rounded-lg uppercase tracking-wider transition-colors bg-surface-container text-on-surface font-title-md" data-path="inicio" href="#">Inicio</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="nuestro-cafe" href="#">Nuestro Café</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="productos" href="#">Productos</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="beneficios" href="#">Beneficios</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="pedido" href="#">Pedido</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="resenas" href="#">Reseñas</a><a class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Alternar efectos de sonido" class="hidden sm:inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors text-on-surface" type="button"><span class="material-symbols-outlined text-[16px] text-secondary">volume_up</span><span class="font-label-sm text-label-sm uppercase">Sonido On</span><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span></button><button aria-label="Ver carrito de compras" class="inline-flex items-center gap-2 px-space-sm py-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors relative text-on-surface" type="button"><span class="material-symbols-outlined text-[20px]">local_mall</span><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Total</span><span class="font-title-md text-title-md font-bold leading-tight">$14.50</span></div><span class="w-5 h-5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm flex items-center justify-center">2</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-md py-2.5 rounded-xl bg-tertiary-container text-tertiary-fixed hover:bg-primary transition-all font-label-md text-label-md uppercase tracking-wider shadow-sm" data-path="pedido" href="#productos">Pedir Ahora</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Steam Keyframe Styles & Tactile Details -->
+<svg aria-hidden="true" class="hidden">
+<defs>
+<lineargradient id="warmAmberGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#82542a"></stop>
+<stop offset="100%" stop-color="#241915"></stop>
+</lineargradient>
+</defs>
+</svg>
+<!-- 1. HERO SECTION -->
+<section class="relative w-full overflow-hidden pt-space-xl lg:pt-space-2xl pb-space-2xl bg-surface" id="inicio">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container mb-space-md">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Ritual Artesanal Tradicional</span>
+</div>
+<h1 class="font-display-lg text-headline-lg-mobile lg:text-display-lg text-on-surface tracking-tight mb-space-md">
+            FILTER <span class="italic font-normal text-secondary">COFFEE</span>
+</h1>
+<p class="font-headline-sm text-headline-sm text-secondary mb-space-sm">
+            Café de pasar, sabor que se disfruta en cada taza.
+          </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-space-xl">
+            Descubre el auténtico café de pasar, preparado para quienes disfrutan del aroma, el sabor y la pausada experiencia de un buen café de origen seleccionado.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-2 px-space-xl py-3.5 rounded-xl bg-tertiary-container text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider hover:bg-primary transition-all shadow-md group" href="#productos">
+<span>Ver Productos</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-y-0.5 transition-transform">expand_more</span>
+</a>
+<button class="inline-flex items-center justify-center gap-2 px-space-xl py-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider transition-all" onclick="window.cartManager.openCustomerModalDirect()" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">chat</span>
+<span>Pedir por WhatsApp</span>
+</button>
+</div>
+<!-- Sensory Badges -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-xl mt-space-xl w-full border-t-0">
+<div class="flex flex-col gap-1 p-space-sm rounded-xl bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[22px]">workspace_premium</span>
+<span class="font-label-md text-label-md text-on-surface">100% Granos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Seleccionados a mano</span>
+</div>
+<div class="flex flex-col gap-1 p-space-sm rounded-xl bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[22px]">local_fire_department</span>
+<span class="font-label-md text-label-md text-on-surface">Tueste Medio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Artesanal &amp; balanceado</span>
+</div>
+<div class="flex flex-col gap-1 p-space-sm rounded-xl bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[22px]">water_drop</span>
+<span class="font-label-md text-label-md text-on-surface">Extracción Pura</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Goteo lento en filtro</span>
+</div>
+</div>
+</div>
+<!-- Visual Column with Steam Effect -->
+<div class="lg:col-span-6 relative flex justify-center items-center">
+<div class="relative w-full max-w-[520px] aspect-[4/5] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover object-center scale-100 hover:scale-105 transition-transform duration-700 ease-out" data-alt="Close up artisanal pour over dripping hot filter coffee into a rustic speckled ceramic cup with rising steam, amber glass bottle and wooden counter in a warm minimalist coffee shop" src="https://lh3.googleusercontent.com/aida/AEtjO1UgWLiDoaIpnMxjl0bhKlQDNaXbtno2Ip8etiuoE40Harb_axQDd4LZPQmziO2hZg3onj7AmsKabsTln1dw4RpmN7zvdVlZYm55E_ech5DIuWvjiPsMntWV0H0cl98SlJ3Ew_Ab7q0Hb7I1KPw5SjbhF7zAf1XlJWQ0diqYzB1u3bScHGQqo2gcGL9fSyFLZGCCQfYgjY5ovAh6QuI9ETFbKebr5pEtjY5Xnu494cMqGRFcC-7C8hq88Q"/>
+<!-- Rising Steam SVG Simulation Overlay -->
+<div class="absolute inset-0 pointer-events-none flex items-center justify-center opacity-60 mix-blend-screen">
+<svg class="w-48 h-64 text-white" fill="none" viewbox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+<path class="animate-pulse" d="M45 170 Q35 130 55 90 T45 20" opacity="0.6" stroke="rgba(255,255,255,0.7)" stroke-dasharray="10 20" stroke-linecap="round" stroke-width="4"></path>
+<path d="M55 180 Q65 140 45 100 T60 30" opacity="0.8" stroke="rgba(255,255,255,0.85)" stroke-dasharray="12 25" stroke-linecap="round" stroke-width="6"></path>
+<path d="M50 160 Q40 110 50 60 T48 10" stroke="rgba(255,255,255,0.5)" stroke-dasharray="8 16" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+</div>
+<!-- Bottom Subtle Scrim -->
+<div class="absolute bottom-0 inset-x-0 h-28 bg-gradient-to-t from-primary-container/80 via-primary-container/30 to-transparent flex items-end p-space-md">
+<div class="flex items-center justify-between w-full text-surface">
+<span class="font-label-sm text-label-sm tracking-widest uppercase">Goteo Tradicional en Taza</span>
+<span class="inline-flex items-center gap-1 font-body-sm text-body-sm text-surface-container">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+                  Paso a paso artesanal
+                </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. ¿QUÉ ES EL CAFÉ DE PASAR? ("EL ARTE DEL CAFÉ DE PASAR") -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="nuestro-cafe">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-space-xs block">El Método de Siempre</span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-sm">El Arte del Café de Pasar</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          El café de pasar es una preparación tradicional en la que el agua caliente atraviesa lentamente el café molido mediante un filtro. Este proceso sereno permite disfrutar mejor su aroma, cuerpo sedoso y características naturales intactas.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1: Aroma -->
+<div class="bg-surface p-space-xl rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">flare</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-1">01 / Fragancia</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Aroma Envolvente</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Una experiencia aromática desde el primer momento en que el agua tibia toca las notas tostadas del grano molido al instante.
+          </p>
+</div>
+<!-- Card 2: Sabor -->
+<div class="bg-surface p-space-xl rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">local_cafe</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-1">02 / Pureza</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Sabor Auténtico</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Un sabor auténtico para disfrutar cada taza, libre de sedimentos ásperos y con un perfil limpio, dulce y sumamente balanceado.
+          </p>
+</div>
+<!-- Card 3: Tradición -->
+<div class="bg-surface p-space-xl rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">history_edu</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-1">03 / Memoria</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Tradición Familiar</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Una forma sencilla, rústica y tradicional de preparar café en casa que rescata la calidez y el tiempo compartido de antaño.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. NUESTROS PRODUCTOS: FILTROS DE PASAR -->
+<section class="w-full py-space-2xl bg-surface" id="productos">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-space-xs">Instrumentos de Extracción</span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface">Filtros de Pasar</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Confeccionados artesanalmente en tela natural y montura ergonómica. Elige el diámetro exacto para tu taza, tetera o termo preferido.
+        </p>
+</div>
+<!-- Filters Grid (3 Products) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Producto 1: Filtro 2 cm -->
+<div class="bg-surface-container-low rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-md transition-all" data-product-desc="Ideal para tazas individuales y pocillos matutinos. Goteo fino concentrado." data-product-id="filtro-2cm" data-product-name="Filtro 2 cm" data-product-price="1.50" data-product-type="Filtro de Tela">
+<div>
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Traditional cloth coffee drip filter with polished wooden handle resting on unbleached linen fabric beside whole roasted coffee beans and white paper filters" src="https://lh3.googleusercontent.com/aida/AEtjO1VJxErNhSCI12dbLwLq-8uai3FDE-z3SNbdl3uRLIHGXxSbIdmQuGCcjf4_Xe8MZdIvzb4akRpnaYhthRwmg1Njwa5Ygog90BtZMzPh5WoVxdcYZzv-j9gLSd96rHkpz0R453p_LH8VFKhl5U2nFnAplxRNl25D3NlJIoQ1DqMvktMxxlGogJPy9cGm33PsAjDJ8ylNfiA2q9P-TzuWDM0xNJa578xruuIbUUdcn2pf01tXSJ5_NYyij6I"/>
+<div class="absolute top-3 left-3 bg-surface-bright/95 backdrop-blur-sm px-3 py-1 rounded-full text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+                Diámetro 2 cm
+              </div>
+</div>
+<div class="p-space-lg">
+<div class="flex items-baseline justify-between mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Filtro 2 cm</h3>
+<span class="font-title-md text-title-md font-bold text-secondary">$1.50</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Ideal para tazas individuales, pocillos expresos y extracciones concentradas de una sola porción.
+              </p>
+</div>
+</div>
+<div class="px-space-lg pb-space-lg flex flex-col gap-space-sm">
+<!-- Stepper & Actions -->
+<div class="flex items-center justify-between gap-space-sm bg-surface p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 px-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider text-center transition-colors" onclick="window.cartManager.openSpecsModal('filtro-2cm', 'Filtro 2 cm - Taza Individual', '$1.50')" type="button">
+                Ver Detalles
+              </button>
+<button class="btn-add-cart w-full py-2.5 px-2 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Producto 2: Filtro 5 cm -->
+<div class="bg-surface-container-low rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-md transition-all ring-1 ring-secondary/20" data-product-desc="El tamaño clásico más versátil. Diseñado para mugs medianos y jarras de 2 a 3 tazas." data-product-id="filtro-5cm" data-product-name="Filtro 5 cm" data-product-price="1.75" data-product-type="Filtro de Tela">
+<div>
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Top view of artisanal cloth coffee strainer with wooden handle and clean woven cotton fabric bag prepared for slow drip coffee extraction on clean table" src="https://lh3.googleusercontent.com/aida/AEtjO1VJxErNhSCI12dbLwLq-8uai3FDE-z3SNbdl3uRLIHGXxSbIdmQuGCcjf4_Xe8MZdIvzb4akRpnaYhthRwmg1Njwa5Ygog90BtZMzPh5WoVxdcYZzv-j9gLSd96rHkpz0R453p_LH8VFKhl5U2nFnAplxRNl25D3NlJIoQ1DqMvktMxxlGogJPy9cGm33PsAjDJ8ylNfiA2q9P-TzuWDM0xNJa578xruuIbUUdcn2pf01tXSJ5_NYyij6I"/>
+<div class="absolute top-3 left-3 bg-secondary text-on-secondary px-3 py-1 rounded-full font-label-sm text-label-sm uppercase tracking-wider shadow-sm">
+                Más Vendido • 5 cm
+              </div>
+</div>
+<div class="p-space-lg">
+<div class="flex items-baseline justify-between mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Filtro 5 cm</h3>
+<span class="font-title-md text-title-md font-bold text-secondary">$1.75</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                El tamaño clásico más versátil. Diseñado para mugs medianos, desayunos familiares y jarras de 2 a 3 tazas.
+              </p>
+</div>
+</div>
+<div class="px-space-lg pb-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm bg-surface p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 px-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider text-center transition-colors" onclick="window.cartManager.openSpecsModal('filtro-5cm', 'Filtro 5 cm - Tamaño Clásico Familiar', '$1.75')" type="button">
+                Ver Detalles
+              </button>
+<button class="btn-add-cart w-full py-2.5 px-2 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Producto 3: Filtro 6 cm -->
+<div class="bg-surface-container-low rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-md transition-all" data-product-desc="Mayor capacidad para jarras grandes, termos térmicos o preparación para reuniones." data-product-id="filtro-6cm" data-product-name="Filtro 6 cm" data-product-price="2.00" data-product-type="Filtro de Tela">
+<div>
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Traditional cotton drip coffee filter pouch held with handcrafted dark wood handle over a textured ceramic mug in a cozy light cafe" src="https://lh3.googleusercontent.com/aida/AEtjO1VJxErNhSCI12dbLwLq-8uai3FDE-z3SNbdl3uRLIHGXxSbIdmQuGCcjf4_Xe8MZdIvzb4akRpnaYhthRwmg1Njwa5Ygog90BtZMzPh5WoVxdcYZzv-j9gLSd96rHkpz0R453p_LH8VFKhl5U2nFnAplxRNl25D3NlJIoQ1DqMvktMxxlGogJPy9cGm33PsAjDJ8ylNfiA2q9P-TzuWDM0xNJa578xruuIbUUdcn2pf01tXSJ5_NYyij6I"/>
+<div class="absolute top-3 left-3 bg-surface-bright/95 backdrop-blur-sm px-3 py-1 rounded-full text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+                Diámetro 6 cm
+              </div>
+</div>
+<div class="p-space-lg">
+<div class="flex items-baseline justify-between mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Filtro 6 cm</h3>
+<span class="font-title-md text-title-md font-bold text-secondary">$2.00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Mayor capacidad y profundidad para jarras térmicas, termos de oficina o preparación grupal sin desbordes.
+              </p>
+</div>
+</div>
+<div class="px-space-lg pb-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm bg-surface p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 px-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider text-center transition-colors" onclick="window.cartManager.openSpecsModal('filtro-6cm', 'Filtro 6 cm - Capacidad Grande', '$2.00')" type="button">
+                Ver Detalles
+              </button>
+<button class="btn-add-cart w-full py-2.5 px-2 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. PRESENTACIONES DE CAFÉ -->
+<section class="w-full py-space-2xl bg-surface-container-high/40">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-center mb-space-xl">
+<div class="lg:col-span-5">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-space-xs">Grano &amp; Molienda Artesanal</span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-sm">Nuestras Presentaciones de Café</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Café de especialidad tostado con precisión para goteo lento. Granos seleccionados de altura que liberan notas florales, caramelo y chocolate suave al pasar por el filtro.
+          </p>
+</div>
+<div class="lg:col-span-7">
+<div class="p-space-lg rounded-2xl bg-surface shadow-sm flex flex-col sm:flex-row items-center gap-space-md">
+<div class="w-full sm:w-48 aspect-square rounded-xl overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover" data-alt="Kraft paper coffee bag with label FILTER COFFEE standing on rustic timber coffee bar with roasted coffee beans poured into brass scoop in warm morning sunlight" src="https://lh3.googleusercontent.com/aida/AEtjO1Xsz3SGbAhs3Uby7rOvaD9qD98UUVEQbYwRd2YWlOoOeo6n4bK8j9Vq8UBfHCwd9yP1J-pZvKHEd8swgrnKE5lrG5MXloD6fdqKPJLinUSitogbM2RBMEs61wkAKIhOT0bqfNiZDAX5gXxZxK1UdbgYpycwUERIETXRf03he6Mlsu6wvoe4IFz2QHO4DlflpqLz-s-hRgc-ig4zeMacVRCCwD2V6kBSB5ssdb-7vxOA06aS-4FTP0ZmQmA"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Proceso &amp; Tueste</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mt-1 mb-1">Molienda Perfecta para Filtro de Pasar</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Calibrado con un grosor medio exacto para evitar atascos y asegurar un caudal de filtración pausado y uniforme.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Coffee Packages Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Item 1: 4 Onzas -->
+<div class="bg-surface rounded-2xl p-space-lg shadow-sm flex flex-col justify-between" data-product-desc="Presentación de 4 onzas (aprox. 115g). Ideal para degustar o llevar de viaje." data-product-id="cafe-4oz" data-product-name="Café de 4 Onzas" data-product-price="0" data-product-type="Café Artesanal">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm uppercase tracking-wider text-secondary">Bolsa 4 oz</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Precio por confirmar</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Café de 4 Onzas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Tueste artesanal de especialidad. Porción compacta perfecta para conservar frescura absoluta o como obsequio gourmet.
+            </p>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+<span>Rinde 8 a 10 tazas de pasar</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<button class="btn-add-cart w-full py-3 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar al Pedido</span>
+</button>
+</div>
+</div>
+<!-- Item 2: 8 Onzas -->
+<div class="bg-surface rounded-2xl p-space-lg shadow-sm flex flex-col justify-between" data-product-desc="Presentación de media libra (8 onzas). El formato favorito para la rutina semanal." data-product-id="cafe-8oz" data-product-name="Café de 8 Onzas" data-product-price="0" data-product-type="Café Artesanal">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm uppercase tracking-wider text-secondary">Bolsa 8 oz (Media Libra)</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">Precio de referencia: Precio por confirmar</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Café de 8 Onzas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              El equilibrio ideal para el consumidor habitual. Empaque con válvula desgasificadora y cierre hermético ziploc.
+            </p>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">tune</span>
+<span class="italic">Molienda o grano entero por consultar</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<button class="btn-add-cart w-full py-3 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar al Pedido</span>
+</button>
+</div>
+</div>
+<!-- Item 3: 16 Onzas (1 Libra) -->
+<div class="bg-surface rounded-2xl p-space-lg shadow-sm flex flex-col justify-between" data-product-desc="Bolsa de 1 libra entera (16 onzas). Para familias cafeteras y oficinas con buen gusto." data-product-id="cafe-16oz" data-product-name="Café de 16 Onzas (1 Libra)" data-product-price="0" data-product-type="Café Artesanal">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm uppercase tracking-wider text-secondary">Bolsa 16 oz (1 Libra)</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">Precio de referencia: Precio por confirmar</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Café de 16 Onzas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Presentación completa para hogares apasionados. Lote recién tostado garantizado con fecha grabada al reverso.
+            </p>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+<span>Descuento en compras recurrentes</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low p-2 rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Cantidad</span>
+<div class="flex items-center gap-3">
+<button aria-label="Disminuir cantidad" class="stepper-dec w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="stepper-val font-title-md text-title-md font-semibold text-on-surface min-w-[20px] text-center">1</span>
+<button aria-label="Aumentar cantidad" class="stepper-inc w-8 h-8 rounded-lg bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<button class="btn-add-cart w-full py-3 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar al Pedido</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. ¿POR QUÉ FILTER COFFEE? (BENEFICIOS) -->
+<section class="w-full py-space-2xl bg-surface" id="beneficios">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-space-xs">Nuestra Filosofía</span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-sm">¿Por qué FILTER COFFEE?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Cada detalle está pensado para devolverte la calma del ritual cafetero sin complicaciones técnicas.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Beneficio 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors flex flex-col items-start text-left">
+<div class="w-12 h-12 rounded-xl bg-surface flex items-center justify-center text-secondary mb-space-md shadow-sm">
+<span class="text-[24px]">☕</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Sabor Auténtico</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Disfruta una preparación sencilla que resalta el sabor verdadero del café, sin amarguras excesivas.
+          </p>
+</div>
+<!-- Beneficio 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors flex flex-col items-start text-left">
+<div class="w-12 h-12 rounded-xl bg-surface flex items-center justify-center text-secondary mb-space-md shadow-sm">
+<span class="text-[24px]">🌿</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Experiencia Natural</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Una experiencia inspirada en la tradición y el café artesanal cultivado de manera sostenible y limpia.
+          </p>
+</div>
+<!-- Beneficio 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors flex flex-col items-start text-left">
+<div class="w-12 h-12 rounded-xl bg-surface flex items-center justify-center text-secondary mb-space-md shadow-sm">
+<span class="text-[24px]">✨</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Aroma Inconfundible</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Disfruta el aroma penetrante del café recién preparado que perfuma con nostalgia todo tu espacio.
+          </p>
+</div>
+<!-- Beneficio 4 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors flex flex-col items-start text-left">
+<div class="w-12 h-12 rounded-xl bg-surface flex items-center justify-center text-secondary mb-space-md shadow-sm">
+<span class="text-[24px]">❤️</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Hecho para Disfrutar</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Una taza preparada para disfrutar cada momento, ya sea en silencio al amanecer o conversando en la sobremesa.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. RESEÑAS & FORMULARIO "CUÉNTANOS TU EXPERIENCIA" -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="resenas">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-start">
+<!-- Left: Interactive Review Submission Form -->
+<div class="lg:col-span-5 bg-surface p-space-xl rounded-2xl shadow-sm">
+<div class="mb-space-md">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-1">Comunidad Cafetera</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Cuéntanos tu Experiencia</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Tu opinión nutre y perfecciona nuestros lotes de tueste y confección.
+            </p>
+<div class="mt-2.5 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low border border-outline-variant/30 text-on-surface-variant text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">mail</span>
+<span>Tus comentarios se envían directamente a <strong class="text-on-surface font-semibold">cofedicion@gmail.com</strong></span>
+</div>
+</div>
+<form class="space-y-space-md" id="reviewForm" onsubmit="window.reviewManager.submitReview(event)">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1.5" for="revNombre">Tu Nombre y Apellido *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="revNombre" placeholder="Ej. Camila Morales" required="" type="text"/>
+</div>
+<!-- Star Rating Interactive Selector -->
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1.5">Calificación General *</label>
+<div class="flex items-center gap-1.5" id="starRatingContainer">
+<button class="star-btn text-surface-variant hover:text-secondary focus:outline-none transition-transform hover:scale-110" data-star="1" type="button">
+<span class="material-symbols-outlined text-[28px]">star</span>
+</button>
+<button class="star-btn text-surface-variant hover:text-secondary focus:outline-none transition-transform hover:scale-110" data-star="2" type="button">
+<span class="material-symbols-outlined text-[28px]">star</span>
+</button>
+<button class="star-btn text-surface-variant hover:text-secondary focus:outline-none transition-transform hover:scale-110" data-star="3" type="button">
+<span class="material-symbols-outlined text-[28px]">star</span>
+</button>
+<button class="star-btn text-surface-variant hover:text-secondary focus:outline-none transition-transform hover:scale-110" data-star="4" type="button">
+<span class="material-symbols-outlined text-[28px]">star</span>
+</button>
+<button class="star-btn text-secondary focus:outline-none transition-transform hover:scale-110" data-star="5" type="button">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</button>
+</div>
+<input id="revRatingInput" type="hidden" value="5"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1.5" for="revCafe">Opinión sobre el café</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="revCafe" placeholder="¿Qué notas aromáticas o intensidad percibiste?" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1.5" for="revDegustacion">Opinión sobre la degustación y el filtro</label>
+<textarea class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md resize-none" id="revDegustacion" placeholder="¿Cómo sentiste el paso del café en el filtro de tela?" rows="2"></textarea>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1.5" for="revAtencion">Opinión sobre la atención</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="revAtencion" placeholder="Rapidez en WhatsApp, empaque o entrega..." type="text"/>
+</div>
+<button class="w-full py-3.5 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Enviar Reseña</span>
+</button>
+</form>
+<!-- Feedback notification banner hidden by default -->
+<div class="hidden mt-4 p-3.5 rounded-xl bg-tertiary-fixed text-tertiary-container font-body-md text-body-md flex items-start gap-2.5 border border-tertiary-fixed-dim/40 shadow-sm" id="reviewSuccessBanner">
+<span class="material-symbols-outlined text-[22px] shrink-0 mt-0.5 text-secondary">task_alt</span>
+<div class="flex flex-col">
+<strong class="font-title-md text-title-md leading-tight">¡Muchas gracias!</strong>
+<span class="font-body-sm text-body-sm mt-0.5">Tu reseña ha sido registrada y remitida a <strong class="underline">cofedicion@gmail.com</strong>.</span>
+</div>
+</div>
+</div>
+<!-- Right: Authentic Review Cards Stream -->
+<div class="lg:col-span-7 flex flex-col gap-space-md" id="reviewsContainer">
+<div class="flex items-center justify-between">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface">Experiencias Destacadas</h3>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-on-surface-variant">(+140 reseñas verificadas)</span>
+</div>
+</div>
+<!-- Review Card 1 -->
+<div class="bg-surface p-space-lg rounded-2xl shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-secondary text-title-md">
+                  SC
+                </div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Sofía Calderón</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Quito • Filtro 5 cm + Café 8 oz</span>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-2">
+              "El filtro de 5 cm es perfecto para mi taza matutina. El café no deja ningún poso arenoso y conserva una dulzura natural increíble. Me recordó al café que hacía mi abuela en Loja."
+            </p>
+<div class="flex flex-wrap gap-2 text-on-surface-variant font-body-sm text-body-sm pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-low">Degustación: 10/10</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low">Atención por WhatsApp inmediata</span>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="bg-surface p-space-lg rounded-2xl shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-secondary text-title-md">
+                  MR
+                </div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Mateo Rivas</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cumbayá • Café de 16 Onzas</span>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+              "Excelente tueste, fragancia a chocolate negro y frutos secos. Pedí por WhatsApp y coordinamos la molienda exacta. Al día siguiente ya lo tenía en mi puerta."
+            </p>
+<div class="flex flex-wrap gap-2 text-on-surface-variant font-body-sm text-body-sm pt-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-low">Empaque hermético impecable</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. PRODUCT SPECS & BREWING GUIDE MODAL -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-margin-mobile bg-primary-container/60 backdrop-blur-sm transition-opacity duration-300" id="productSpecsModal">
+<div class="bg-surface max-w-2xl w-full rounded-2xl shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+<!-- Modal Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">local_cafe</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="modalProductTitle">Detalles del Producto</h3>
+</div>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="window.cartManager.closeSpecsModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Modal Body (Scrollable) -->
+<div class="p-space-xl overflow-y-auto space-y-space-lg font-body-md text-body-md text-on-surface-variant">
+<!-- Section: Composition -->
+<div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+            ¿De qué está hecho?
+          </h4>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container-low">
+<span class="font-label-md text-label-md uppercase text-on-surface block mb-1">El Filtro Artesanal</span>
+<p class="font-body-sm text-body-sm">
+                Confeccionado en 100% algodón orgánico natural sin blanqueadores de cloro ni tratamientos sintéticos. El mango y aro están forjados con ensamble seguro para un agarre firme.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low">
+<span class="font-label-md text-label-md uppercase text-on-surface block mb-1">El Café de Altura</span>
+<p class="font-body-sm text-body-sm">
+                100% arábica de origen selecto. Molienda media calibrada específicamente para filtro de tela, evitando que los aceites esenciales se quemen o se estanquen.
+              </p>
+</div>
+</div>
+</div>
+<!-- Section: Step by Step Preparation Diagram -->
+<div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">water_drop</span>
+            Paso a Paso: Cómo preparar café de pasar
+          </h4>
+<div class="space-y-2.5 font-body-sm text-body-sm">
+<div class="flex items-start gap-3 p-2.5 rounded-lg bg-surface-container-low">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">1</span>
+<div>
+<strong class="text-on-surface block">Purgar y enjuagar:</strong>
+                Vierte agua caliente sobre el filtro de tela vacío antes de usarlo. Esto aclimata el soporte y elimina cualquier sabor a tela residual.
+              </div>
+</div>
+<div class="flex items-start gap-3 p-2.5 rounded-lg bg-surface-container-low">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">2</span>
+<div>
+<strong class="text-on-surface block">Dosificación de café:</strong>
+                Coloca 1 a 2 cucharadas soperas bien colmadas (12 a 15 gramos) de café molido por cada taza de agua (180 ml - 200 ml).
+              </div>
+</div>
+<div class="flex items-start gap-3 p-2.5 rounded-lg bg-surface-container-low">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">3</span>
+<div>
+<strong class="text-on-surface block">Pre-infusión (Bloom):</strong>
+                Humedece el café con un poco de agua caliente a 92°C y espera 30 segundos para que libere sus gases y aromas esenciales.
+              </div>
+</div>
+<div class="flex items-start gap-3 p-2.5 rounded-lg bg-surface-container-low">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">4</span>
+<div>
+<strong class="text-on-surface block">Vertido continuo y circular:</strong>
+                Vierte el resto del agua en espirales lentas desde el centro hacia los bordes sin tocar la tela directamente. Deja gotear naturalmente.
+              </div>
+</div>
+</div>
+</div>
+<!-- Section: Cleaning & Storage Advice -->
+<div class="p-space-md rounded-xl bg-surface-container">
+<h5 class="font-label-md text-label-md uppercase text-on-surface mb-1">Cuidado y lavado del filtro</h5>
+<p class="font-body-sm text-body-sm">
+            Lava el filtro únicamente con agua caliente abundante, sin jabón ni detergentes para no alterar el sabor del próximo café. Guárdalo bien escurrido en un lugar fresco y aireado.
+          </p>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="p-space-md bg-surface-container-low flex justify-end">
+<button class="px-space-lg py-2 rounded-xl bg-tertiary-container text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider hover:bg-primary transition-colors" onclick="window.cartManager.closeSpecsModal()" type="button">
+          Entendido
+        </button>
+</div>
+</div>
+</div>
+<!-- 8. SLIDE-OVER CART DRAWER -->
+<div class="fixed inset-0 z-50 hidden bg-primary-container/50 backdrop-blur-sm transition-opacity" id="cartDrawerBackdrop" onclick="window.cartManager.toggleCart(false)"></div>
+<aside class="fixed top-0 right-0 bottom-0 z-50 w-full max-w-md bg-surface shadow-2xl transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col" id="cartDrawer">
+<!-- Cart Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">shopping_bag</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Tu Pedido</h3>
+</div>
+<button class="w-9 h-9 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="window.cartManager.toggleCart(false)" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<!-- Free Shipping Notice / Advice -->
+<div class="px-space-lg py-2.5 bg-surface-container text-on-surface-variant font-body-sm text-body-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_shipping</span>
+<span>Envíos seguros a todo el país vía encomienda o courier.</span>
+</div>
+<!-- Items List Container -->
+<div class="flex-1 overflow-y-auto p-space-lg space-y-space-md" id="cartItemsList">
+<!-- Injected via JavaScript -->
+</div>
+<!-- Cart Summary & Actions Footer -->
+<div class="p-space-lg bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-body-md text-body-md">
+<span>Artículos en carrito:</span>
+<span class="font-bold text-on-surface" id="cartCountSummary">0</span>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">Total Estimado</span>
+<span class="font-headline-sm text-headline-sm font-bold text-secondary" id="cartTotalSummary">$0.00</span>
+</div>
+<button class="w-full mt-2 py-3.5 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all disabled:opacity-50 disabled:pointer-events-none" id="btnContinueCheckout" onclick="window.cartManager.openCustomerModal()" type="button">
+<span>Continuar con el Pedido</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</aside>
+<!-- 9. CUSTOMER DETAILS & WHATSAPP GENERATION MODAL -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-margin-mobile bg-primary-container/60 backdrop-blur-sm" id="customerModal">
+<div class="bg-surface max-w-lg w-full rounded-2xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col">
+<!-- Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">person_pin</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Datos para tu Pedido</h3>
+</div>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="window.cartManager.closeCustomerModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Form Body -->
+<div class="p-space-xl overflow-y-auto space-y-space-md">
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Completa tus datos para estructurar el mensaje directo y seguro por WhatsApp hacia FILTER COFFEE.
+        </p>
+<form class="space-y-space-md" id="orderCustomerForm" onsubmit="window.cartManager.confirmWhatsAppOrder(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1" for="custNombre">Nombre *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="custNombre" placeholder="Tu nombre" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1" for="custApellido">Apellido *</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="custApellido" placeholder="Tu apellido" required="" type="text"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1" for="custEmail">
+              Correo Electrónico <span class="text-on-surface-variant font-normal normal-case">(Opcional)</span>
+</label>
+<input class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" id="custEmail" placeholder="tucorreo@ejemplo.com (opcional)" type="email"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-on-surface mb-1" for="custObservaciones">Observaciones o Preferencias</label>
+<textarea class="w-full px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md resize-none" id="custObservaciones" placeholder="Ej. Preferencia de molienda en grano, entrega para regalo, ciudad de envío..." rows="2"></textarea>
+</div>
+<!-- Live Order Summary Box -->
+<div class="p-space-md rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm space-y-1">
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Unidades totales:</span>
+<span class="font-bold" id="custTotalUnits">0</span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Valor Total a Confirmar:</span>
+<span class="font-bold text-secondary text-title-md" id="custOrderTotal">$0.00</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<button class="w-full py-3.5 rounded-xl bg-tertiary-container hover:bg-primary text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-md" type="submit">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Confirmar Pedido por WhatsApp</span>
+</button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Se abrirá WhatsApp directamente al 0967777185 con tu pedido redactado de manera ordenada.
+            </p>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- CLIENT-SIDE SCRIPT LOGIC -->
+<script>
+    (function () {
+      // Configuration constants
+      const WHATSAPP_NUMBER = "593967777185";
+      const REVIEWS_EMAIL = "cofedicion@gmail.com";
+
+      // 1. Subtle Web Audio API sound feedback
+      let audioEnabled = false;
+      let audioCtx = null;
+
+      function initAudio() {
+        if (!audioCtx && (window.AudioContext || window.webkitAudioContext)) {
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+      }
+
+      function playChime(type = 'click') {
+        if (!audioEnabled) return;
+        try {
+          initAudio();
+          if (!audioCtx) return;
+          if (audioCtx.state === 'suspended') {
+            audioCtx.resume();
+          }
+
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          const now = audioCtx.currentTime;
+
+          if (type === 'add') {
+            // Dual tone ascending chime
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(440, now);
+            osc.frequency.exponentialRampToValueAtTime(660, now + 0.12);
+            gain.gain.setValueAtTime(0.08, now);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.25);
+            osc.start(now);
+            osc.stop(now + 0.25);
+          } else if (type === 'order') {
+            // Celebratory triad chime
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(523.25, now);
+            osc.frequency.setValueAtTime(659.25, now + 0.1);
+            osc.frequency.setValueAtTime(783.99, now + 0.2);
+            gain.gain.setValueAtTime(0.1, now);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+            osc.start(now);
+            osc.stop(now + 0.5);
+          } else {
+            // Gentle tactile wood click
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(320, now);
+            osc.frequency.exponentialRampToValueAtTime(140, now + 0.05);
+            gain.gain.setValueAtTime(0.05, now);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.06);
+            osc.start(now);
+            osc.stop(now + 0.06);
+          }
+        } catch (e) {
+          // Fail gracefully if web audio is unavailable
+        }
+      }
+
+      // Hook sound button from global header if available
+      const soundBtn = document.querySelector('button[aria-label="Alternar efectos de sonido"]');
+      if (soundBtn) {
+        soundBtn.addEventListener('click', () => {
+          audioEnabled = !audioEnabled;
+          const textSpan = soundBtn.querySelector('span:nth-child(2)');
+          const dotSpan = soundBtn.querySelector('span:last-child');
+          if (textSpan) textSpan.textContent = audioEnabled ? 'Sonido On' : 'Sonido Off';
+          if (dotSpan) {
+            dotSpan.className = audioEnabled ? 'w-1.5 h-1.5 rounded-full bg-secondary' : 'w-1.5 h-1.5 rounded-full bg-surface-variant';
+          }
+          if (audioEnabled) {
+            initAudio();
+            playChime('add');
+          }
+        });
+      }
+
+      // 2. Shopping Cart Store & Management
+      class CartManager {
+        constructor() {
+          this.items = [];
+          this.initListeners();
+          this.updateUI();
+        }
+
+        initListeners() {
+          // Connect all quantity steppers in products & coffee
+          document.querySelectorAll('[data-product-id]').forEach(card => {
+            const decBtn = card.querySelector('.stepper-dec');
+            const incBtn = card.querySelector('.stepper-inc');
+            const valSpan = card.querySelector('.stepper-val');
+            const addBtn = card.querySelector('.btn-add-cart');
+
+            let qty = 1;
+
+            if (decBtn && incBtn && valSpan) {
+              decBtn.addEventListener('click', () => {
+                if (qty > 1) {
+                  qty--;
+                  valSpan.textContent = qty;
+                  playChime('click');
+                }
+              });
+
+              incBtn.addEventListener('click', () => {
+                if (qty < 10) {
+                  qty++;
+                  valSpan.textContent = qty;
+                  playChime('click');
+                }
+              });
+            }
+
+            if (addBtn) {
+              addBtn.addEventListener('click', () => {
+                const id = card.dataset.productId;
+                const name = card.dataset.productName;
+                const price = parseFloat(card.dataset.productPrice) || 0;
+                const type = card.dataset.productType || 'Producto';
+                this.addItem(id, name, price, qty, type);
+                playChime('add');
+
+                // Visual micro-feedback on button
+                const origHtml = addBtn.innerHTML;
+                addBtn.innerHTML = `<span class="material-symbols-outlined text-[16px]">check</span><span>Agregado</span>`;
+                setTimeout(() => {
+                  addBtn.innerHTML = origHtml;
+                }, 1200);
+              });
+            }
+          });
+
+          // Connect header cart button
+          const headerCartBtn = document.querySelector('button[aria-label="Ver carrito de compras"]');
+          if (headerCartBtn) {
+            headerCartBtn.addEventListener('click', (e) => {
+              e.preventDefault();
+              this.toggleCart(true);
+            });
+          }
+        }
+
+        addItem(id, name, price, quantity = 1, type = '') {
+          const existing = this.items.find(item => item.id === id);
+          if (existing) {
+            existing.quantity += quantity;
+            if (existing.quantity > 10) existing.quantity = 10;
+          } else {
+            this.items.push({ id, name, price, quantity, type });
+          }
+          this.updateUI();
+        }
+
+        removeItem(id) {
+          this.items = this.items.filter(item => item.id !== id);
+          playChime('click');
+          this.updateUI();
+        }
+
+        changeItemQty(id, delta) {
+          const item = this.items.find(item => item.id === id);
+          if (item) {
+            item.quantity += delta;
+            if (item.quantity <= 0) {
+              this.removeItem(id);
+              return;
+            }
+            if (item.quantity > 10) item.quantity = 10;
+            playChime('click');
+            this.updateUI();
+          }
+        }
+
+        getTotal() {
+          return this.items.reduce((acc, curr) => acc + (curr.price * curr.quantity), 0);
+        }
+
+        getTotalUnits() {
+          return this.items.reduce((acc, curr) => acc + curr.quantity, 0);
+        }
+
+        updateUI() {
+          const count = this.getTotalUnits();
+          const total = this.getTotal();
+
+          // Header cart counter & total
+          const headerCartBtn = document.querySelector('button[aria-label="Ver carrito de compras"]');
+          if (headerCartBtn) {
+            const badge = headerCartBtn.querySelector('span:last-child');
+            if (badge) badge.textContent = count;
+            const priceText = headerCartBtn.querySelector('.text-title-md');
+            if (priceText) priceText.textContent = `$${total.toFixed(2)}`;
+          }
+
+          // Drawer Summary
+          const countSummary = document.getElementById('cartCountSummary');
+          const totalSummary = document.getElementById('cartTotalSummary');
+          if (countSummary) countSummary.textContent = count;
+          if (totalSummary) totalSummary.textContent = `$${total.toFixed(2)}`;
+
+          // Customer Modal Summary
+          const custTotalUnits = document.getElementById('custTotalUnits');
+          const custOrderTotal = document.getElementById('custOrderTotal');
+          if (custTotalUnits) custTotalUnits.textContent = count;
+          if (custOrderTotal) custOrderTotal.textContent = `$${total.toFixed(2)}`;
+
+          // Checkout button state
+          const checkoutBtn = document.getElementById('btnContinueCheckout');
+          if (checkoutBtn) {
+            checkoutBtn.disabled = this.items.length === 0;
+          }
+
+          // Render Drawer Items List
+          const listContainer = document.getElementById('cartItemsList');
+          if (listContainer) {
+            if (this.items.length === 0) {
+              listContainer.innerHTML = `
+                <div class="h-64 flex flex-col items-center justify-center text-center p-space-md text-on-surface-variant">
+                  <span class="material-symbols-outlined text-[44px] text-surface-variant mb-2">shopping_bag</span>
+                  <p class="font-headline-sm text-headline-sm text-on-surface mb-1">Tu pedido está vacío</p>
+                  <p class="font-body-sm text-body-sm">Selecciona tus filtros de pasar o tu presentación de café favorita.</p>
+                </div>
+              `;
+            } else {
+              listContainer.innerHTML = this.items.map(item => `
+                <div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-xl gap-space-sm">
+                  <div class="flex flex-col flex-1 min-w-0">
+                    <span class="font-title-md text-title-md font-semibold text-on-surface truncate">${item.name}</span>
+                    <span class="font-body-sm text-body-sm text-on-surface-variant">$${item.price.toFixed(2)} c/u</span>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <button type="button" onclick="window.cartManager.changeItemQty('${item.id}', -1)" class="w-7 h-7 rounded-lg bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface text-sm">
+                      <span class="material-symbols-outlined text-[14px]">remove</span>
+                    </button>
+                    <span class="font-title-md text-title-md font-bold text-on-surface min-w-[16px] text-center">${item.quantity}</span>
+                    <button type="button" onclick="window.cartManager.changeItemQty('${item.id}', 1)" class="w-7 h-7 rounded-lg bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface text-sm">
+                      <span class="material-symbols-outlined text-[14px]">add</span>
+                    </button>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <span class="font-title-md text-title-md font-bold text-secondary min-w-[50px] text-right">
+                      $${(item.price * item.quantity).toFixed(2)}
+                    </span>
+                    <button type="button" onclick="window.cartManager.removeItem('${item.id}')" class="p-1 rounded text-on-surface-variant hover:text-error transition-colors" aria-label="Eliminar producto">
+                      <span class="material-symbols-outlined text-[18px]">delete</span>
+                    </button>
+                  </div>
+                </div>
+              `).join('');
+            }
+          }
+        }
+
+        toggleCart(show) {
+          const drawer = document.getElementById('cartDrawer');
+          const backdrop = document.getElementById('cartDrawerBackdrop');
+          if (drawer && backdrop) {
+            if (show) {
+              backdrop.classList.remove('hidden');
+              drawer.classList.remove('translate-x-full');
+              playChime('click');
+            } else {
+              drawer.classList.add('translate-x-full');
+              backdrop.classList.add('hidden');
+            }
+          }
+        }
+
+        openCustomerModalDirect() {
+          if (this.items.length === 0) {
+            // Add a recommended starter pack if empty
+            this.addItem('filtro-5cm', 'Filtro 5 cm', 1.75, 1, 'Filtro de Tela');
+            
+          }
+          this.openCustomerModal();
+        }
+
+        openCustomerModal() {
+          this.toggleCart(false);
+          const modal = document.getElementById('customerModal');
+          if (modal) {
+            modal.classList.remove('hidden');
+            playChime('click');
+          }
+        }
+
+        closeCustomerModal() {
+          const modal = document.getElementById('customerModal');
+          if (modal) {
+            modal.classList.add('hidden');
+          }
+        }
+
+        openSpecsModal(id, title, price) {
+          const modal = document.getElementById('productSpecsModal');
+          const titleEl = document.getElementById('modalProductTitle');
+          if (modal && titleEl) {
+            titleEl.textContent = `${title} • ${price}`;
+            modal.classList.remove('hidden');
+            playChime('click');
+          }
+        }
+
+        closeSpecsModal() {
+          const modal = document.getElementById('productSpecsModal');
+          if (modal) {
+            modal.classList.add('hidden');
+          }
+        }
+
+        confirmWhatsAppOrder(e) {
+          e.preventDefault();
+          const nombre = document.getElementById('custNombre').value.trim();
+          const apellido = document.getElementById('custApellido').value.trim();
+          const email = document.getElementById('custEmail').value.trim() || "No especificado";
+          const observaciones = document.getElementById('custObservaciones').value.trim() || "Ninguna";
+
+          if (!nombre || !apellido) {
+            alert('Por favor completa tu Nombre y Apellido.');
+            return;
+          }
+
+          if (this.items.length === 0) {
+            alert('Por favor agrega al menos un producto al carrito.');
+            return;
+          }
+
+          // Build item details list
+          const productosTexto = this.items
+            .map(item => `• ${item.name} (Cant: ${item.quantity}) - $${(item.price * item.quantity).toFixed(2)}`)
+            .join('\n');
+
+          const totalUnidades = this.getTotalUnits();
+          const totalValor = this.getTotal().toFixed(2);
+
+          const message = 
+`Hola, Filter Coffee. Quiero realizar el siguiente pedido:
+Nombre: ${nombre}
+Apellido: ${apellido}
+Producto:
+${productosTexto}
+Cantidad: ${totalUnidades} unidades
+Total: $${totalValor}
+Correo: ${email}
+Observaciones: ${observaciones}
+Gracias.`;
+
+          playChime('order');
+
+          const encodedMessage = encodeURIComponent(message);
+          const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
+
+          this.closeCustomerModal();
+          window.open(whatsappUrl, '_blank');
+        }
+      }
+
+      // 3. Reviews System Management (with email integration)
+      class ReviewManager {
+        constructor() {
+          this.initStarListeners();
+        }
+
+        initStarListeners() {
+          const container = document.getElementById('starRatingContainer');
+          const input = document.getElementById('revRatingInput');
+          if (!container || !input) return;
+
+          const stars = container.querySelectorAll('.star-btn');
+          stars.forEach(btn => {
+            btn.addEventListener('click', () => {
+              const val = parseInt(btn.dataset.star, 10);
+              input.value = val;
+              this.paintStars(val);
+              playChime('click');
+            });
+          });
+        }
+
+        paintStars(val) {
+          const container = document.getElementById('starRatingContainer');
+          if (!container) return;
+          const stars = container.querySelectorAll('.star-btn');
+          stars.forEach(btn => {
+            const sVal = parseInt(btn.dataset.star, 10);
+            const icon = btn.querySelector('.material-symbols-outlined');
+            if (sVal <= val) {
+              btn.className = 'star-btn text-secondary focus:outline-none transition-transform hover:scale-110';
+              if (icon) icon.style.fontVariationSettings = "'FILL' 1";
+            } else {
+              btn.className = 'star-btn text-surface-variant hover:text-secondary focus:outline-none transition-transform hover:scale-110';
+              if (icon) icon.style.fontVariationSettings = "'FILL' 0";
+            }
+          });
+        }
+
+        submitReview(e) {
+          e.preventDefault();
+          const nombre = document.getElementById('revNombre').value.trim();
+          const rating = parseInt(document.getElementById('revRatingInput').value, 10) || 5;
+          const cafeOpin = document.getElementById('revCafe').value.trim() || 'No especificada';
+          const degustacion = document.getElementById('revDegustacion').value.trim() || 'No especificada';
+          const atencion = document.getElementById('revAtencion').value.trim() || 'No especificada';
+
+          if (!nombre) return;
+
+          const reviewsContainer = document.getElementById('reviewsContainer');
+          if (reviewsContainer) {
+            const initials = nombre.split(' ').map(n => n[0]).slice(0, 2).join('').toUpperCase() || 'FC';
+            const starIcons = Array.from({ length: rating }).map(() => `
+              <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            `).join('');
+
+            const reviewCard = document.createElement('div');
+            reviewCard.className = 'bg-surface p-space-lg rounded-2xl shadow-sm border-l-4 border-secondary transition-all';
+            reviewCard.innerHTML = `
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold text-title-md">
+                    ${initials}
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-semibold leading-tight">${nombre}</h4>
+                    <span class="font-body-sm text-body-sm text-secondary font-medium">Reseña Verificada • Ahora</span>
+                  </div>
+                </div>
+                <div class="flex text-secondary">
+                  ${starIcons}
+                </div>
+              </div>
+              <p class="font-body-md text-body-md text-on-surface mb-2">
+                "${(degustacion !== 'No especificada' ? degustacion : (cafeOpin !== 'No especificada' ? cafeOpin : 'Excelente experiencia y sabor de café inigualable con filtro tradicional.'))}"
+              </p>
+              <div class="flex flex-wrap gap-2 text-on-surface-variant font-body-sm text-body-sm pt-2">
+                ${atencion !== 'No especificada' ? `<span class="px-2 py-0.5 rounded bg-surface-container-low">Atención: ${atencion}</span>` : ''}
+                ${cafeOpin !== 'No especificada' ? `<span class="px-2 py-0.5 rounded bg-surface-container-low">Café: ${cafeOpin}</span>` : ''}
+              </div>
+            `;
+
+            reviewsContainer.insertBefore(reviewCard, reviewsContainer.children[1]);
+          }
+
+          // Build email dispatch link
+          const emailSubject = encodeURIComponent(`Nueva Reseña Filter Coffee - ${nombre} (${rating}/5 estrellas)`);
+          const emailBody = encodeURIComponent(
+`Nueva reseña recibida en Filter Coffee:
+
+• Nombre y Apellido: ${nombre}
+• Calificación: ${rating} / 5 estrellas
+• Opinión sobre el café: ${cafeOpin}
+• Opinión sobre degustación y filtro: ${degustacion}
+• Opinión sobre la atención: ${atencion}
+
+Fecha: ${new Date().toLocaleString()}`
+          );
+
+          // Open mail client
+          const mailtoUrl = `mailto:${REVIEWS_EMAIL}?subject=${emailSubject}&body=${emailBody}`;
+          const mailLink = document.createElement('a');
+          mailLink.href = mailtoUrl;
+          mailLink.style.display = 'none';
+          document.body.appendChild(mailLink);
+          mailLink.click();
+          setTimeout(() => document.body.removeChild(mailLink), 1000);
+
+          playChime('order');
+
+          // Reset form & show notification
+          document.getElementById('reviewForm').reset();
+          this.paintStars(5);
+          const banner = document.getElementById('reviewSuccessBanner');
+          if (banner) {
+            banner.classList.remove('hidden');
+            setTimeout(() => banner.classList.add('hidden'), 7000);
+          }
+        }
+      }
+
+      // Initialize globally on window for inline handlers
+      window.cartManager = new CartManager();
+      window.reviewManager = new ReviewManager();
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_12px_rgba(36,25,21,0.03)] mt-space-2xl"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter lg:gap-space-xl"><div class="lg:col-span-4 space-y-space-md"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-[18px]">coffee_maker</span></div><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Filter Coffee</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Café de pasar artesanal y tradicional. Granos de especialidad tostados al punto justo para despertar la memoria sensorial del ritual de goteo lento en casa.</p><div class="flex items-center gap-space-sm"><a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" href="https://instagram.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a aria-label="Facebook" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" href="https://facebook.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">public</span></a><a aria-label="TikTok" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" href="https://tiktok.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">music_note</span></a></div></div><div class="lg:col-span-3 space-y-space-sm"><h4 class="font-title-md text-title-md uppercase tracking-wider text-on-surface">Navegación</h4><ul class="space-y-space-xs font-body-md text-body-md"><li class="list-none"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="nuestro-cafe" href="#nuestro-cafe">Nuestro Café de Origen</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="productos" href="#productos">Bolsas y Filtros de Tela</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="beneficios" href="#beneficios">Beneficios del Pasar Lento</a></li><li class="list-none"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="resenas" href="#resenas">Experiencias y Reseñas</a></li></ul></div><div class="lg:col-span-3 space-y-space-sm"><h4 class="font-title-md text-title-md uppercase tracking-wider text-on-surface">Atención y Despachos</h4><div class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><p class="flex items-start gap-2"><span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">schedule</span><span>Lunes a Sábado: 08h00 - 18h30<br/>Envíos a todo el país</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-secondary">location_on</span><span>Guayaquil, Ecuador</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-secondary">mail</span><span class="text-xs break-all">cofedicion@gmail.com</span></p></div></div><div class="lg:col-span-2 space-y-space-sm"><h4 class="font-title-md text-title-md uppercase tracking-wider text-on-surface">WhatsApp Directo</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Pedidos asistidos y molienda personalizada.</p><a class="inline-flex items-center gap-2 px-space-md py-2 rounded-xl bg-tertiary-container text-tertiary-fixed hover:bg-primary transition-colors font-label-md text-label-md" href="https://wa.me/593967777185" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span>0967777185</a></div></div><div class="mt-space-xl pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 FILTER COFFEE. Todos los derechos reservados.</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-secondary">favorite</span><span>Crafted with love by FILTER COFFEE</span></p></div></div></footer><aside class="fixed bottom-6 right-6 z-50"><a aria-label="Chatear por WhatsApp" class="group flex items-center gap-2.5 px-4 py-3 rounded-full bg-tertiary-container text-tertiary-fixed shadow-[0_8px_24px_rgba(6,32,20,0.35)] hover:scale-105 transition-all" href="https://wa.me/593967777185?text=Hola%20FILTER%20COFFEE%2C%20quisiera%20hacer%20un%20pedido%20de%20caf%C3%A9" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[22px]">chat</span><span class="font-label-md text-label-md tracking-wide max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out">Pedir por WhatsApp (0967777185)</span></a></aside></body></html>
