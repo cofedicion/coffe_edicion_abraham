@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://coffe-edicion-abraham.vercel.app/sitemap.xml
