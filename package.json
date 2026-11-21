@@ -1,0 +1,8 @@
+{
+  "name": "filter-coffee",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build-storefront.mjs" },
+  "engines": { "node": "24.x" },
+  "dependencies": { "@vercel/blob": "2.9.0" }
+}

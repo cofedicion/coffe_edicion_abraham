@@ -1,0 +1,14 @@
+{
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "ignoreCommand": "node -e \"const host = process.env.VERCEL_PROJECT_PRODUCTION_URL; process.exit(host && host !== 'coffe-edicion-abraham.vercel.app' ? 0 : 1)\"",
+  "trailingSlash": false,
+  "functions": {
+    "api/admin.js": { "includeFiles": "admin/index.html" }
+  },
+  "rewrites": [
+    { "source": "/admin", "destination": "/api/admin" },
+    { "source": "/admin/index.html", "destination": "/api/admin" }
+  ]
+}
